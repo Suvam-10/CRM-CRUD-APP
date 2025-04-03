@@ -1,0 +1,59 @@
+{% extends 'webapp/base.html' %}
+
+{% block content %}
+
+<body>
+    <div class ="text-center">
+        <h1 class="text-center">🚀 Welcome to the CRM Application</h1>
+        <p class="lead text-center">
+            <strong>Empowering Businesses with Seamless Customer Management</strong>
+        </p>
+
+        <h2>🌟 Key Features</h2>
+        <ul>
+            <li>CRUD Operations: Create, Read, Update, Delete customer records</li>
+            <li>Interactive Dashboard: Real-time insights into customer data & sales trends</li>
+            <li>User Authentication: Secure login & role-based access</li>
+            <li>Order & Transaction Management</li>
+            <li>Search & Filter Functionality</li>
+            <li>Automated Email Notifications (Optional)</li>
+            <li>Scalable & Modular Codebase</li>
+        </ul>
+
+        <h2>💡 Tech Stack</h2>
+        <ul>
+            <li><strong>Backend:</strong> Django (Python)</li>
+            <li><strong>Frontend:</strong> HTML, CSS, JavaScript (Bootstrap)</li>
+            <li><strong>Database:</strong> PostgreSQL / MySQL / SQLite</li>
+            <li><strong>Authentication:</strong> Django's built-in auth system</li>
+        </ul>
+
+        <p class="text-center mt-4">
+            <strong>🔥 Explore the dashboard and experience a smarter way to manage customer relationships! 🔥</strong>
+        </p>
+
+        <div class="contact-links">
+            <h2>📬 Get in Touch</h2>
+            <a href="https://github.com/Suvam-10" target="_blank">🔗 GitHub</a> |
+            <a href="https://www.linkedin.com/in/suvam-mohapatra/" target="_blank">🔗 LinkedIn</a> |
+            <a href="mailto:mohapatrasuvam179@gmail.com">📧 Email Me</a> |
+            <a href="https://drive.google.com/file/d/1Iq-mhz-zZlgD5b4GmsGWxEChzNZb_jr2/view?usp=sharing">✅ Resume</a>
+        </div>
+
+        <div class="footer">
+            &copy; 2025 CRM Application | Designed for Efficiency & Growth  | 
+        </div>
+
+        <hr>
+        <a class="btn btn-primary" type="button" href="{% url 'register' %}">Create your account &nbsp; <i class="fa fa-user-plus" aria-hidden="true"></i></a>
+
+
+    </div>
+
+
+
+
+</body>
+
+
+{%endblock%}
